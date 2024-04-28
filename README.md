@@ -1,1 +1,2 @@
-# Responsive-Design-HTML-CSS-Java
+# 
+![Logo](/Responsive-Design-HTML-CSS-Java/images/spiral-logo.png)
