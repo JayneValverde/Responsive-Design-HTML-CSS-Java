@@ -95,6 +95,8 @@ body{
   height: 5rem;
   display: flex;
   align-items: center;
+  transform: scaleY(0);
+  transform-origin: top ;
 }
 
 .header .search-form input{
@@ -119,4 +121,38 @@ body{
 
 .header .search-form label:hover{
   color:var(--olive-haze);
+}
+
+
+
+
+
+
+
+
+/* media quieries */
+@media (max-width: 991px){
+
+  html{
+    font-size: 55%;
+  }
+
+  .header{
+    padding:1.5rem 2rem;
+  }
+}
+
+@media (max-width: 991px){
+  
+  #menu-btn{
+    display:inline-block;
+  }
+
+  .header .navbar{
+    position: absolute;
+    top:100%; right:0;
+    background: #F5F5DC;
+    background: 30rem;
+  }
+
 }
