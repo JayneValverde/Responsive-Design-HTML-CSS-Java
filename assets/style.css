@@ -50,7 +50,7 @@ section{
 
 .heading{
   text-align: center;
-  color:#fff;
+  color: var(--main-color);
   text-transform: uppercase;
   padding-bottom: 3.5rem;
   font-size:4rem;
@@ -206,6 +206,11 @@ section{
 
 
 
+
+
+
+
+
 /* media quieries */
 @media (max-width: 991px){
 
@@ -233,19 +238,12 @@ section{
   .header .navbar{
     position: absolute;
     top:100%; right: -100%;
-    background: var(--beige);
+    background: var(--olive-haze);
     width: 30rem;
     height: calc(100vh - 9.5rem);
   }
 
   
-
-  const hideToggle {
-    transform: 'translateX(100%)';
-    height: 0;
-    width: 0;
-    overflow: "hidden";
-  }
 
   .header .navbar.active{
     right:0;
@@ -307,4 +305,16 @@ section{
 .about .row .content{
   flex: 1 1 45rem;
   padding: 2rem;
+}
+
+.about .row .content h3{
+  font-size: 3rem;
+  color: var(--black);
+}
+
+.about .row .content p{
+  font-size: 1.6rem;
+  color: var(--black);
+  padding: 1rem 0;
+  line-height: 1.8;
 }
