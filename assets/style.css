@@ -44,6 +44,9 @@ body{
   background: var(--background);
 }
 
+section{
+  padding: 2rem 7%;
+}
 
 .header{
   background: var(--background);
@@ -150,6 +153,10 @@ body{
   .header{
     padding:1.5rem 2rem;
   }
+
+  section{
+    padding: 2rem ;
+  }
   
 }
 
@@ -211,4 +218,22 @@ body{
   background: url(../images/woodwork1.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.home .content{
+  max-width: 60rem;
+}
+
+.home .content h3{
+  font-size: 6rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.home .content p{
+  font-size: 2rem;
+  font-weight: lighter;
+  line-height: 1.8;
+  padding: 1rem;
+  color: #eee;
 }
