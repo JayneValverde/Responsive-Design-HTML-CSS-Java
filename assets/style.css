@@ -48,6 +48,20 @@ section{
   padding: 2rem 7%;
 }
 
+.btn{
+  margin-top: 1rem;
+  display: inline-block;
+  padding:.9rem 3rem;
+  font-size: 1.7rem;
+  color:#fff;
+  background: #ebdfd0;
+  cursor: pointer;
+}
+
+.btn:hover{
+  letter-spacing: .2rem;
+}
+
 .header{
   background: var(--background);
   display: flex;
@@ -132,6 +146,40 @@ section{
   color:var(--olive-haze);
 }
 
+.home{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(../images/woodwork1.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home .content{
+  max-width: 60rem;
+}
+
+.home .content h3{
+  font-size: 6rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.home .content p{
+  font-size: 2rem;
+  font-weight: lighter;
+  line-height: 1.8;
+  padding: 1rem;
+  color: #eee;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -201,6 +249,21 @@ section{
     right: 2rem;;
   }
 
+  .home{
+    background-position: left;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .home .content h3{
+    font-size: 4.5rem;
+  }
+  
+  .home .content p{
+    font-size: 1.5rem;
+  
+  }
+
 }
 
 @media (max-width: 450px){
@@ -209,31 +272,4 @@ section{
     font-size: 50%;
   }
   
-}
-
-.home{
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  background: url(../images/woodwork1.jpeg) no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.home .content{
-  max-width: 60rem;
-}
-
-.home .content h3{
-  font-size: 6rem;
-  text-transform: uppercase;
-  color: #fff;
-}
-
-.home .content p{
-  font-size: 2rem;
-  font-weight: lighter;
-  line-height: 1.8;
-  padding: 1rem;
-  color: #eee;
 }
