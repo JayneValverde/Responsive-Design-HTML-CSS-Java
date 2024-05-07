@@ -318,3 +318,33 @@ section{
   padding: 1rem 0;
   line-height: 1.8;
 }
+
+.projects .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+
+.projects .box-container .box{
+  padding: 5rem;
+  text-align: center;
+  border:var(--border); 
+}
+
+.projects .box-container .box .proimg{
+  height: 15rem;
+}
+
+.projects .box-container .box h3{
+  color: var(--black);
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+.projects .box-container .box:hover{
+  background-color: var(--olive-haze);
+}
+
+.projects .box-container .box:hover > *{
+  color:var(--black);
+}
