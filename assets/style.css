@@ -299,7 +299,19 @@ section{
   border: var(--border);
 }
 
-.contact .row form .inputBox {
+.contact .row form .inputBox span{
+  color:var(--black);
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+
+.contact .row form .inputBox input{
+  width: 100%;
+  padding:2rem;
+  font-size: 1.7rem;
+  color: var(--black);
+  text-transform: none;
+  background:none;
 
 }
 
