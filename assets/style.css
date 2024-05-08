@@ -8,6 +8,7 @@
   --beige: #F5F5DC
   --orange: #EF813E;
   --olive-haze: #87896E;
+  --persimmon: #ffdbbb
 }
 
 *{
@@ -98,20 +99,20 @@ section{
 }
 
 .header .navbar a:hover{
-  color:var(--olive-haze);
+  color:var(--persimmon);
   /* border-bottom: .1rem  solid var(--green); */
   padding-bottom: .5rem;
 }
 
 .header .icons div{
-  color: var(--olive-haze);
+  color: var(--black);
   cursor: pointer;
   font-size: 2.5rem;
   margin-left: 2rem;
 }
 
 .header .icons div:hover{
-  color:var(--olive-green);
+  color:var(--persimmon);
 }
 
 #menu-btn{
@@ -156,7 +157,7 @@ section{
 }
 
 .header .search-form label:hover{
-  color:var(--olive-haze);
+  color:var(--persimmon);
 }
 
 .home{
@@ -258,7 +259,7 @@ section{
 }
 
 .projects .box-container .box:hover{
-  background-color: var(--olive-haze);
+  background-color: #ffdbbb;
 }
 
 .projects .box-container .box:hover > *{
@@ -312,7 +313,6 @@ section{
   color: var(--black);
   text-transform: none;
   background:none;
-
 }
 
 
@@ -356,7 +356,7 @@ section{
   .header .navbar{
     position: absolute;
     top:100%; right: -100%;
-    background: var(--olive-haze);
+    background: var(--persimmon);
     width: 30rem;
     height: calc(100vh - 9.5rem);
   }

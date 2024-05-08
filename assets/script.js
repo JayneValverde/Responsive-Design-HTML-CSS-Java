@@ -18,3 +18,7 @@ window.onscroll = () =>{
   navbar.classList.remove('active');
   searchForm.classList.remove('active');
 }
+
+document.getElementById("workBtn").onclick = function () {
+  location.hash="#projects";
+}
