@@ -36,15 +36,15 @@
   </nav>
 
   <div class="icons">
-    <div class="fa fa-search" id="search-btn" placeholder="search here..."></div> 
+    <!-- <div class="fa fa-search" id="search-btn" placeholder="search here..."></div>  -->
     <div class="fa fa-bars" id="menu-btn"></div> 
   </div>
 
   <!-- DELETE? -->
-  <div class="search-form">
+  <!-- <div class="search-form">
     <input type="search" id="search-box" placeholder="search here..">
     <label for="search-box" class="fas fa-search"></label>
-  </div>
+  </div> -->
 
 </header>
 
@@ -143,17 +143,22 @@
 
     <img class="headshot" src="./images/headshot-1.jpeg" alt="">
     
-    <form action="">
+    <form action="https://api.web3forms.com/submit" method="POST">
+
       <h3>get in touch</h3>
+      <input type="hidden" name="access_key" value="812fc65b-0ee6-4f3d-b05e-24ba5643e74d">
+
       <div class="inputBox">
         <span class="fas fa-user"></span>
-        <input type="text" placeholder="name">
+        <input type="text" name="name" placeholder="name">
       </div>
+
       <div class="inputBox">
         <span class="fas fa-envelope"></span>
-        <input type="email" placeholder="email">
+        <input type="email" name="email" placeholder="email">
       </div>
       <input type="submit" value="contact now" class="btn">
+
     </form>
 
 </div>
